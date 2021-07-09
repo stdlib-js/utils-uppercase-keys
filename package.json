@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-uppercase-keys",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Convert each object key to uppercase.",
   "license": "Apache-2.0",
   "author": {
