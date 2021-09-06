@@ -123,6 +123,13 @@ console.dir( obj2 );
 
 <section class="related">
 
+* * *
+
+## See Also
+
+-   [`@stdlib/utils/capitalize-keys`][@stdlib/utils/capitalize-keys]: convert the first letter of each object key to uppercase.
+-   [`@stdlib/utils/lowercase-keys`][@stdlib/utils/lowercase-keys]: convert each object key to lowercase.
+
 </section>
 
 <!-- /.related -->
@@ -183,6 +190,14 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [stdlib-authors]: https://github.com/stdlib-js/stdlib/graphs/contributors
 
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/utils-uppercase-keys/main/LICENSE
+
+<!-- <related-links> -->
+
+[@stdlib/utils/capitalize-keys]: https://github.com/stdlib-js/utils-capitalize-keys
+
+[@stdlib/utils/lowercase-keys]: https://github.com/stdlib-js/utils-lowercase-keys
+
+<!-- </related-links> -->
 
 </section>
 
