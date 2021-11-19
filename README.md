@@ -20,7 +20,7 @@ limitations under the License.
 
 # uppercaseKeys
 
-[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] [![dependencies][dependencies-image]][dependencies-url]
+[![NPM version][npm-image]][npm-url] [![Build Status][test-image]][test-url] [![Coverage Status][coverage-image]][coverage-url] <!-- [![dependencies][dependencies-image]][dependencies-url] -->
 
 > Convert each object key to uppercase.
 
@@ -127,8 +127,8 @@ console.dir( obj2 );
 
 ## See Also
 
--   [`@stdlib/utils/capitalize-keys`][@stdlib/utils/capitalize-keys]: convert the first letter of each object key to uppercase.
--   [`@stdlib/utils/lowercase-keys`][@stdlib/utils/lowercase-keys]: convert each object key to lowercase.
+-   <span class="package-name">[`@stdlib/utils/capitalize-keys`][@stdlib/utils/capitalize-keys]</span><span class="delimiter">: </span><span class="description">convert the first letter of each object key to uppercase.</span>
+-   <span class="package-name">[`@stdlib/utils/lowercase-keys`][@stdlib/utils/lowercase-keys]</span><span class="delimiter">: </span><span class="description">convert each object key to lowercase.</span>
 
 </section>
 
@@ -179,8 +179,12 @@ Copyright &copy; 2016-2021. The Stdlib [Authors][stdlib-authors].
 [coverage-image]: https://img.shields.io/codecov/c/github/stdlib-js/utils-uppercase-keys/main.svg
 [coverage-url]: https://codecov.io/github/stdlib-js/utils-uppercase-keys?branch=main
 
+<!--
+
 [dependencies-image]: https://img.shields.io/david/stdlib-js/utils-uppercase-keys.svg
 [dependencies-url]: https://david-dm.org/stdlib-js/utils-uppercase-keys/main
+
+-->
 
 [chat-image]: https://img.shields.io/gitter/room/stdlib-js/stdlib.svg
 [chat-url]: https://gitter.im/stdlib-js/stdlib/
