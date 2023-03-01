@@ -38,12 +38,12 @@ C -->|bundle| D[esm];
 C -->|bundle| E[deno];
 C -->|bundle| F[umd];
 
-click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/utils/uppercase-keys"
-click B href "https://github.com/stdlib-js/utils-uppercase-keys/tree/main"
-click C href "https://github.com/stdlib-js/utils-uppercase-keys/tree/production"
-click D href "https://github.com/stdlib-js/utils-uppercase-keys/tree/esm"
-click E href "https://github.com/stdlib-js/utils-uppercase-keys/tree/deno"
-click F href "https://github.com/stdlib-js/utils-uppercase-keys/tree/umd"
+%% click A href "https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/utils/uppercase-keys"
+%% click B href "https://github.com/stdlib-js/utils-uppercase-keys/tree/main"
+%% click C href "https://github.com/stdlib-js/utils-uppercase-keys/tree/production"
+%% click D href "https://github.com/stdlib-js/utils-uppercase-keys/tree/esm"
+%% click E href "https://github.com/stdlib-js/utils-uppercase-keys/tree/deno"
+%% click F href "https://github.com/stdlib-js/utils-uppercase-keys/tree/umd"
 ```
 
 [stdlib-url]: https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/utils/uppercase-keys
