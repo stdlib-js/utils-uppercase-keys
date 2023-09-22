@@ -1,6 +1,6 @@
 {
   "name": "@stdlib/utils-uppercase-keys",
-  "version": "0.0.8",
+  "version": "0.1.0",
   "description": "Convert each object key to uppercase.",
   "license": "Apache-2.0",
   "author": {
@@ -38,7 +38,7 @@
   },
   "dependencies": {
     "@stdlib/assert-has-own-property": "^0.0.7",
-    "@stdlib/string-format": "^0.0.3"
+    "@stdlib/string-format": "^0.1.0"
   },
   "devDependencies": {
     "@stdlib/bench": "^0.0.12",
