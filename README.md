@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import uppercaseKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uppercase-keys@deno/mod.js';
+import uppercaseKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uppercase-keys@v0.1.0-deno/mod.js';
 ```
 
 #### uppercaseKeys( obj )
@@ -95,7 +95,7 @@ var obj2 = uppercaseKeys( obj1 );
 <!-- eslint no-undef: "error" -->
 
 ```javascript
-import uppercaseKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uppercase-keys@deno/mod.js';
+import uppercaseKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uppercase-keys@v0.1.0-deno/mod.js';
 
 var obj1 = {
     'a': 'beep',
