@@ -45,14 +45,30 @@ limitations under the License.
 
 <!-- Package usage documentation. -->
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/utils-uppercase-keys
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm` branch][esm-url].
+-   If you are using Deno, visit the [`deno` branch][deno-url].
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd` branch][umd-url].
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import uppercaseKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uppercase-keys@esm/index.mjs';
+var uppercaseKeys = require( '@stdlib/utils-uppercase-keys' );
 ```
 
 #### uppercaseKeys( obj )
@@ -94,13 +110,8 @@ var obj2 = uppercaseKeys( obj1 );
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import uppercaseKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uppercase-keys@esm/index.mjs';
+```javascript
+var uppercaseKeys = require( '@stdlib/utils-uppercase-keys' );
 
 var obj1 = {
     'a': 'beep',
@@ -113,10 +124,6 @@ var obj2 = uppercaseKeys( obj1 );
 
 console.dir( obj2 );
 // => { 'A': 'beep', 'B': 'boop', 'C': 'foo', 'D': 'bar' }
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -155,7 +162,7 @@ console.dir( obj2 );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -217,9 +224,9 @@ Copyright &copy; 2016-2023. The Stdlib [Authors][stdlib-authors].
 
 <!-- <related-links> -->
 
-[@stdlib/utils/capitalize-keys]: https://github.com/stdlib-js/utils-capitalize-keys/tree/esm
+[@stdlib/utils/capitalize-keys]: https://github.com/stdlib-js/utils-capitalize-keys
 
-[@stdlib/utils/lowercase-keys]: https://github.com/stdlib-js/utils-lowercase-keys/tree/esm
+[@stdlib/utils/lowercase-keys]: https://github.com/stdlib-js/utils-lowercase-keys
 
 <!-- </related-links> -->
 
