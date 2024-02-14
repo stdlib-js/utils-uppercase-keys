@@ -52,7 +52,7 @@ limitations under the License.
 ## Usage
 
 ```javascript
-import uppercaseKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uppercase-keys@esm/index.mjs';
+import uppercaseKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uppercase-keys@v0.2.0-esm/index.mjs';
 ```
 
 #### uppercaseKeys( obj )
@@ -100,7 +100,7 @@ var obj2 = uppercaseKeys( obj1 );
 <body>
 <script type="module">
 
-import uppercaseKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uppercase-keys@esm/index.mjs';
+import uppercaseKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils-uppercase-keys@v0.2.0-esm/index.mjs';
 
 var obj1 = {
     'a': 'beep',
